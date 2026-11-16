@@ -24831,10 +24831,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 114011089888769184, guid: 9d620787554a948e3876fe7dbdba24e8,
-          type: 3}
-        m_TargetAssemblyTypeName: Gamekit3D.Damageable, Assembly-CSharp
-        m_MethodName: ResetDamage
+      - m_Target: {fileID: 11400000, guid: 485b45be4cd3fdb4398d26e0ecbcc12d, type: 2}
+        m_TargetAssemblyTypeName: InteractiblesAudio, Assembly-CSharp
+        m_MethodName: PickupHealthPlay
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

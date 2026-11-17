@@ -13,4 +13,10 @@ public class InteractiblesAudio : ScriptableObject
     {
         RuntimeManager.PlayOneShot(pickupHealthAudio);
     }
+// plays sound in 3d by gettong the transform
+    public void BoxDestroyPlay(Transform objectTransform)
+    {
+        // references obj transform pos
+        RuntimeManager.PlayOneShot(boxDestroyAudio, objectTransform.position);
+    }
 }

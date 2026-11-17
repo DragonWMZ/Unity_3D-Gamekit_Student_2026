@@ -6,17 +6,22 @@ using FMODUnity;
 public class InteractiblesAudio : ScriptableObject
 {
     // Declaring event references to specific event
-    [SerializeField] private EventReference pickupHealthAudio, boxDestroyAudio,switchAudio,doorAudio;
+    [SerializeField] private EventReference pickupHealthAudio, boxDestroyAudio,switchAudio,doorAudio, pressurePadAudio;
 
     // Method to play health pickup sound, no 3d positioning
     public void PickupHealthPlay()
     {
         RuntimeManager.PlayOneShot(pickupHealthAudio);
     }
-// plays sound in 3d by gettong the transform
+// plays sound in 3d by getting the transform
     public void BoxDestroyPlay(Transform objectTransform)
     {
         // references obj transform pos
         RuntimeManager.PlayOneShot(boxDestroyAudio, objectTransform.position);
+    }
+
+    public void PressurePadPlay(Transform objectTransform)
+    {
+        RuntimeManager.PlayOneShot(pressurePadAudio, objectTransform.position);
     }
 }

@@ -19,9 +19,16 @@ public class InteractiblesAudio : ScriptableObject
         // references obj transform pos
         RuntimeManager.PlayOneShot(boxDestroyAudio, objectTransform.position);
     }
-
+// plays sound in 3d by getting the transform
     public void PressurePadPlay(Transform objectTransform)
     {
+        // references obj transform pos
         RuntimeManager.PlayOneShot(pressurePadAudio, objectTransform.position);
+    }
+// plays sound in 3d by getting the transform
+    public void SwitchAudioPlay(Transform objectTransform)
+    {
+        // references obj transform pos 
+        RuntimeManager.PlayOneShot(switchAudio, objectTransform.position);
     }
 }

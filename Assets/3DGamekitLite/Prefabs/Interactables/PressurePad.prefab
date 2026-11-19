@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 65617459584828732}
   - component: {fileID: 114506263911696196}
   - component: {fileID: 114761441504013894}
+  - component: {fileID: -592598434544988269}
   m_Layer: 16
   m_Name: PressurePad
   m_TagString: Untagged
@@ -249,6 +250,37 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
+--- !u!114 &-592598434544988269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194134621077526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 921463383
+      Data2: 1339309246
+      Data3: 161167238
+      Data4: 181846267
+    Path: event:/INT/INT_PressurePad_Press
+  Event: 
+  EventPlayTrigger: 3
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1267796015796786
 GameObject:
   m_ObjectHideFlags: 0

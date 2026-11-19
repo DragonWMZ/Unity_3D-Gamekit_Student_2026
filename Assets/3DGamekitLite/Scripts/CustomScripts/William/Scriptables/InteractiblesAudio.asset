@@ -12,10 +12,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22f0ca9281682034a8a426d156b94a4a, type: 3}
   m_Name: InteractiblesAudio
   m_EditorClassIdentifier: Assembly-CSharp::InteractiblesAudio
-  pickupHealth:
+  pickupHealthAudio:
+    Guid:
+      Data1: -285160486
+      Data2: 1268390662
+      Data3: -607265882
+      Data4: 1186074252
+    Path: event:/INT/INT_Pickup_Health
+  boxDestroyAudio:
+    Guid:
+      Data1: 1753874709
+      Data2: 1263633286
+      Data3: -1403471202
+      Data4: 1217400183
+    Path: event:/INT/INT_Box_Destroy
+  switchAudio:
+    Guid:
+      Data1: -1495862069
+      Data2: 1116304894
+      Data3: -1109759579
+      Data4: 1714357218
+    Path: event:/INT/INT_Switch
+  doorAudio:
     Guid:
       Data1: 0
       Data2: 0
       Data3: 0
       Data4: 0
     Path: 
+  pressurePadAudio:
+    Guid:
+      Data1: 921463383
+      Data2: 1339309246
+      Data3: 161167238
+      Data4: 181846267
+    Path: event:/INT/INT_PressurePad_Press
